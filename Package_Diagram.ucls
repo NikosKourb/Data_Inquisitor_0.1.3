@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="parameters.html.testers" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/parameters/html/testers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="139" y="143"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="parameters.identifiers" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/parameters/identifiers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="852" y="63"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="parameters.html" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/parameters/html" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="350" y="142"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="functions.extractors" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/functions/extractors" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="128" y="61"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="parameters.maps" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/parameters/maps" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="513" y="224"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="sorters" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/sorters" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1028" y="61"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="testers" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/testers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="512" y="63"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="functions.locators" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/functions/locators" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="853" y="430"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="functions.transfigurers.html" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/functions/transfigurers/html" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="351" y="283"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="functions.transfigurers.string" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/functions/transfigurers/string" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="350" y="401"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="parameters.maps.locations" project="String_Finder_and_Extractor" 
+    file="/String_Finder_and_Extractor/src/parameters/maps/locations" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="724" y="224"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
